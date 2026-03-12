@@ -1,4 +1,4 @@
-# 🎬 tgto123 (TG-Cloud-Sync) | 网盘资源自动化管理助手
+# 🎬 TgtoDrive (TTD) | 网盘资源自动化管理助手
 
 <p align="center">
   <a href="https://hub.docker.com/r/walkingd/tgto123">
@@ -39,13 +39,12 @@
 
 ### 🎞️ STRM 媒体库能力
 
-* **123 STRM 批量生成**：支持按目录批量生成 `.strm` 文件，并按网盘目录结构映射到本地媒体库。
+* **115、123 STRM 批量生成**：支持按目录批量生成 `.strm` 文件，并按网盘目录结构映射到本地媒体库。
 * **整理后自动增量同步**：开启 `ENV_123_ORGANIZE_SYNC_STRM=1` 后，每轮 123 整理完成仅同步本轮真实发生变更的目录。
 * **目录级去重 + 脏标记重试**：同一目录不会重复并发同步；若同步过程中再次发生变化，会自动重新入队。
 * **元数据增量下载**：支持同步字幕、封面、NFO、音频等元数据文件，便于 Emby / Plex / 本地播放器识别。
 * **失效 STRM 与空目录清理**：自动清理无效 `.strm` 文件和空目录；遇到扫描异常时会自动跳过清理，避免误删。
 * **302 播放跳转**：支持通过 `/play/{file_id}/{etag}/{size}/{filename}` 动态解析真实地址，不在 STRM 中写死短效直链。
-* **115 STRM 中转**：支持 `/api/115strm?share_code=xxx&id=123&receive_code=yyy` 解析并 302 跳转，便于播放器直接拉流。
 * **批量汇总通知**：整理结束后自动推送 TG 汇总，包含成功/异常目录、STRM 更新数、元数据下载数、清理统计，并支持树状明细分批发送。
 
 ### 🎬 Emby 反向代理302播放能力
@@ -151,8 +150,8 @@ services:
       # [可选] PT下载目录映射：左侧填NAS本地路径，右侧固定为 /app/upload
       # 用于实现本地文件秒传到网盘，不需要可去掉
       - /vol3/1000/Video/MoviePilot/transfer:/app/upload
-      # [可选] STRM输出目录：用于保存 /app/strm 下生成内容
-      - ./strm:/app/strm
+      # [可选] STRM输出目录：用于保存 /app/strm 下生成内容,/vol1/1000/Emby/strm 改成你的目录
+      - /vol1/1000/Emby/strm:/app/strm
 
     restart: always
 ```
