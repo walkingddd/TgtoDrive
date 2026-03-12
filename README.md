@@ -15,7 +15,7 @@
 
 ---
 
-## 如有使用疑问，可加交流群：https://t.me/tgto123chat
+## 如有使用疑问，可加交流群：[https://t.me/tgto123chat](https://t.me/TgtoDriveChat)
 
 ## ✨ 核心功能
 
