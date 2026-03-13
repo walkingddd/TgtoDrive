@@ -15,23 +15,6 @@
 
 ---
 
-## 如有使用疑问，可加交流群：# 🎬 TgtoDrive (TTD) | 网盘资源自动化管理助手（原名Tgto123）
-
-<p align="center">
-  <a href="https://hub.docker.com/r/walkingd/tgto123">
-    <img src="https://img.shields.io/docker/pulls/walkingd/tgto123?style=flat-square&logo=docker&label=Docker%20Pulls" alt="Docker Pulls">
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.13%2B-blue?style=flat-square&logo=python" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey?style=flat-square" alt="Platform">
-</p>
-
-<p align="center">
-<strong>一条龙网盘媒体自动化平台：从找资源、自动转存、智能整理、挂载 STRM、到 Emby 302 直链播放，全流程打通；重点强化 115 / 123 云盘整理、115 / 123 STRM 全量与增量生成、以及 Emby 反向代理 302 播放能力。</strong>
-</p>
-
----
-
 ## 如有使用疑问，可加交流群：[https://t.me/TgtoDriveChat](https://t.me/TgtoDriveChat)
 
 ## ✨ 核心定位：找资源 → 转存 → 整理 → 挂 STRM → Emby 播放
