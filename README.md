@@ -143,9 +143,9 @@ services:
       - ./db:/app/db
       # STRM输出目录：用于保存 /app/strm 下生成内容,/vol1/1000/Emby/strm 改成你的目录，右侧固定为/app/strm
       - /vol1/1000/Emby/strm:/app/strm
-      # [可选] B站、抖音等视频下载保存路径：右侧固定为/app/downloads，不需要可去掉
+      # [可选] B站、抖音等视频下载保存路径，不需要可去掉：右侧固定为/app/downloads
       - ./downloads:/app/downloads
-      # [可选] 本地文件无限尝试秒传网盘路径：左侧填NAS本地路径，右侧固定为/app/upload，不需要可去掉
+      # [可选] 本地文件无限尝试秒传网盘路径：左侧填NAS本地路径，不需要可去掉：右侧固定为/app/upload
       - /vol3/1000/Video/MoviePilot/transfer:/app/upload
 
     restart: always
