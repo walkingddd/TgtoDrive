@@ -9,7 +9,7 @@
   <a href="https://hub.docker.com/r/walkingd/tgto123">
     <img src="https://img.shields.io/badge/Docker%20Image-walkingd%2Ftgto123-2496ED?style=for-the-badge&logo=docker" alt="Docker Image">
   </a>
-  <img src="https://img.shields.io/badge/Version-8.3.14-6C63FF?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Version-8.3.17-6C63FF?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/Arch-amd64%20%7C%20arm64-111827?style=for-the-badge" alt="Architecture">
 </p>
 
