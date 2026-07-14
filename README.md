@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <strong><span style="font-size: 1.25em;">Telegram 交流群：<a href="https://t.me/TgtoDriveChat">https://t.me/TgtoDriveChat</a></span></strong>
+  <strong><span style="font-size: 1.25em;">Telegram 交流群：<a href="https://telegram.me/TgtoDriveChat">https://t.me/TgtoDriveChat</a></span></strong>
 </p>
 
 <p align="center">
